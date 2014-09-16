@@ -1,0 +1,28 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: learn-rails_development
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: qwertasyx
+  password: test
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: learn-rails_production
+  pool: 5
+  timeout: 5000
+  username: qwertasyx
+  password: test
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: learn-rails_test
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: qwertasyx
+  password: test
